@@ -19,6 +19,7 @@ import java.util.List;
  * }
  */
 
+
 class BalanceBST {
     private void inOT(TreeNode node, List<Integer> sorted) {
         if (node == null) {
