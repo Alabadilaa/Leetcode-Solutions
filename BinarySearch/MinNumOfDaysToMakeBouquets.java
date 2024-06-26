@@ -1,7 +1,7 @@
 package BinarySearch;
 
 public class MinNumOfDaysToMakeBouquets {
-            public int minDays(int[] bloomDay, int m, int k) {
+        public int minDays(int[] bloomDay, int m, int k) {
             if (bloomDay.length < (long) m * k) return -1;
     
             int left = Integer.MAX_VALUE;
